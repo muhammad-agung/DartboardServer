@@ -1,0 +1,22 @@
+{
+    "name": "arduino-software",
+    "version": "1.0.0",
+    "description": "Software for receiving numeric data from Arduino and performing subtraction",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "keywords": [
+        "electron",
+        "arduino",
+        "software"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "electron": "^13.1.7",
+        "express": "^4.18.2",
+        "serialport": "^11.0.0",
+        "socket.io": "^4.6.1"
+    }
+}
